@@ -1,7 +1,55 @@
-🎬 Content-Based Movie Recommender System
-Access the project: https://cinema-mates.onrender.com
+# Cinema Mates - Movie Recommender System
 
-- Developed and deployed a content-based movie recommender system using Flask and machine learning that suggests movies based on user input by analyzing features such as genres, keywords, cast, and crew.
-- Preprocessed the TMDB dataset (containing metadata of over 5,000 movies), applied NLP techniques, and built a cosine similarity matrix to identify and recommend top 5 similar movies.
-- Integrated a modern frontend using HTML, CSS, and Select2.js with a searchable dropdown to enhance user experience and provide live autocomplete suggestions.
-- The entire pipeline, from vectorization to deployment, was implemented using scikit-learn, pandas, and Flask, and is hosted on Render for public use.
+## Project Description
+
+Cinema Mates is a machine learning-based movie recommendation system that suggests personalized movie options based on user preferences. The system analyzes movie features and user behavior to provide tailored suggestions.
+
+Key features of the project:
+- Developed using collaborative filtering techniques on the TMDB dataset
+- Implements cosine similarity and feature extraction for recommendations
+- Deployed as a web application using Flask framework. 
+- Processes key movie features including genre, ratings, and metadata
+
+## Technical Details
+
+### Implementation
+- Built with Python using machine learning libraries
+- Utilizes cosine similarity for recommendation algorithms
+- Processes TMDB dataset with comprehensive movie metadata
+- Flask-based web interface for user interaction
+
+### Features
+- Content-based filtering using movie attributes
+- Dynamic recommendation generation
+- User-friendly web interface
+- Scalable architecture for large datasets
+
+## Usage
+
+The system can be used to:
+1. Get personalized movie recommendations
+2. Discover similar movies based on your favorites
+3. Explore movie metadata and relationships
+
+
+## Getting Started
+
+1. Clone the repository
+2. Install dependencies: `pip install -r requirements.txt`
+3. Run the Flask application: `python app.py`
+4. Access the web interface at `http://localhost:5000`
+
+## Future Work
+
+Potential enhancements include:
+- Integration with user rating systems
+- Hybrid recommendation approaches
+- Expanded movie database
+- User profile and history features
+- Deployment to cloud platforms
+
+## Acknowledgments
+
+- TMDB dataset and API
+- Python data science and web development libraries
+- Research in recommender systems and collaborative filtering
